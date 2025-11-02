@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -9,7 +9,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-    <title>Reclin - Addiction Recovery & Rehabilitation Center HTML Template</title>
+    <title>Detalle de Servicio — Casa de Recuperación Postquirúrgica</title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 	<!-- Google Fonts Css-->
@@ -59,25 +59,23 @@
                     <div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-
-
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="book-appointment.html">Book Appointment</a></li>
+                              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                              <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+                              <li class="nav-item"><a class="nav-link" href="service.html">Servicios</a></li>
+                              <li class="nav-item submenu"><a class="nav-link" href="#">Páginas</a>
+                                <ul>
+                                  <li class="nav-item"><a class="nav-link" href="team.html">Nuestro Equipo</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="team-single.html">Detalles del Equipo</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="contact.html">Contáctanos</a></li>
+                              <li class="nav-item highlighted-menu"><a class="nav-link" href="book-appointment.html">Reservar Cita</a></li>
+                              <li class="nav-item"><a class="nav-link" href="https://lwilliams002.github.io/Oil-CRM/#/login" target="_blank">Acceso Empleados</a></li>
                             </ul>
                         </div>
-
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="book-appointment.html" class="btn-default">book appointment</a>
+                            <a href="book-appointment.html" class="btn-default">Reservar cita</a>
                         </div>
                         <!-- Header Btn End -->
                     </div>
@@ -97,12 +95,12 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3" data-cursor="-opaque">Addiction recovery program</h1>
+                        <h1 class="text-anime-style-3" data-cursor="-opaque" id="svc-title">Detalle de servicio</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="./">home</a></li>
-                                <li class="breadcrumb-item"><a href="services.html">services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Addiction recovery program</li>
+                                <li class="breadcrumb-item"><a href="./">inicio</a></li>
+                                <li class="breadcrumb-item"><a href="services.html">servicios</a></li>
+                                <li class="breadcrumb-item active" aria-current="page" id="svc-crumb">Detalle</li>
                             </ol>
                         </nav>
                     </div>
@@ -122,14 +120,8 @@
                     <div class="page-single-sidebar">
                         <!-- Page Category List Start -->
                         <div class="page-category-list wow fadeInUp">
-                            <h3>Solutions We Provide</h3>
-                            <ul>
-                                <li><a href="#">Addiction Recovery Programs</a></li>
-                                <li><a href="#">Medical & Clinical Services</a></li>
-                                <li><a href="#">Holistic & Wellness Services</a></li>
-                                <li><a href="#">Intensive Outpatient Program</a></li>
-                                <li><a href="#">Menstral Heallthi Counselfinity</a></li>
-                            </ul>
+                            <h3>Servicios que Ofrecemos</h3>
+                            <ul id="svc-sidebar"></ul>
                         </div>
                         <!-- Page Category List End -->
 
@@ -141,7 +133,7 @@
                                 <p>Contact us for compassionate care and tailored healing plans.</p>
                             </div>
                             <!-- Sidebar CTA Content End -->
-        
+
                             <!-- Sidebar Contact Box Start -->
                             <div class="sidebar-contact-box">
                                 <div class="icon-box">
@@ -153,7 +145,7 @@
                                 </div>
                             </div>
                             <!-- Sidebar Contact Box End -->
-                            
+
                             <!-- Sidebar CTA Image Start -->
                             <div class="sidebar-cta-image">
                                 <figure class="image-anime">
@@ -166,7 +158,7 @@
                     </div>
                     <!-- Page Single Sidebar End -->
                 </div>
-                
+
                 <div class="col-lg-8">
                     <!-- Service Single Content Start -->
                     <div class="service-single-content">
@@ -177,17 +169,15 @@
                             </figure>
                         </div>
                         <!-- Page Single Image End -->
-                        
+
                         <!-- Service Entry Start -->
                         <div class="service-entry">
-                            <p class="wow fadeInUp">Overcoming addiction is not a one-size-fits-all journey — it requires personalized care, ongoing support, and a safe, understanding environment. Our Addiction Recovery Programs are designed to address the unique physical, emotional, and psychological challenges each individual faces. Through evidence-based therapies, medical supervision, and structured routines.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">At our clinic, we believe in treating the person, not just the addiction. Our recovery programs combine individual counseling, group therapy, lifestyle planning, and aftercare support to ensure long-term success. Whether you're taking your first step toward sobriety or continuing your recovery journey.</p>
+                            <div id="svc-intro" class="wow fadeInUp"></div>
 
                             <!-- Service Support Step Start -->
                             <div class="service-support-step">
-                                <h2 class="text-anime-style-3">Comprehensive support every step</h2>
-                                <p class="wow fadeInUp">Our service is more than just treatment — it's a personalized journey toward lasting wellness. We take the time to understand your unique needs, challenges, and goals, then tailor our approach using proven methods and compassionate care.</p>
-
+                                <h2 class="text-anime-style-3" id="svc-step-title">Apoyo en cada paso</h2>
+                                <p class="wow fadeInUp" id="svc-step-text">Descripción del servicio.</p>
                                 <!-- Support Step Box Start -->
                                 <div class="support-step-box">
                                     <!-- Support Step Image Content Start -->
@@ -199,20 +189,14 @@
                                             </figure>
                                         </div>
                                         <!-- Support Step Image End -->
-                                        
+
                                         <!-- Support Step Content Start -->
                                         <div class="support-step-content wow fadeInUp" data-wow-delay="0.2s">
-                                            <ul>
-                                                <li>Personalized treatment plan tailored.</li>
-                                                <li>Customization based on the type</li>
-                                                <li>Incorporates genomic information</li>
-                                                <li>Treatment plan are customized base</li>
-                                            </ul>
+                                            <ul id="svc-bullets"></ul>
                                         </div>
                                         <!-- Support Step Content End -->
                                     </div>
                                     <!-- Support Step Image Content End -->
-
                                     <!-- Support Step Item List Start -->
                                     <div class="support-step-item-list">
                                         <!-- Care Counter Item Start -->
@@ -226,7 +210,7 @@
                                             </div>
                                         </div>
                                         <!-- Care Counter Item End -->
-                                        
+
                                         <div class="care-counter-item">
                                             <div class="icon-box">
                                                 <img src="images/icon-care-counter-2.svg" alt="">
@@ -237,7 +221,7 @@
                                             </div>
                                         </div>
                                         <!-- Care Counter Item End -->
-                                        
+
                                         <!-- Care Counter Item Start -->
                                         <div class="care-counter-item">
                                             <div class="icon-box">
@@ -249,7 +233,7 @@
                                             </div>
                                         </div>
                                         <!-- Care Counter Item End -->
-                                        
+
                                         <!-- Care Counter Item Start -->
                                         <div class="care-counter-item">
                                             <div class="icon-box">
@@ -270,9 +254,8 @@
 
                             <!-- Service Priority Box Start -->
                             <div class="service-priority-box">
-                                <h2 class="text-anime-style-3">Your healing is our priority</h2>
-                                <p class="wow fadeInUp">We understand that true recovery takes time, trust, and the right guidance. That's why we've built our services around continuous care, empathetic support, and proven clinical practices.</p>
-
+                                <h2 class="text-anime-style-3">Tu recuperación es nuestra prioridad</h2>
+                                <p class="wow fadeInUp">Cuidado continuo, apoyo empático y rutinas confiables para una recuperación tranquila.</p>
                                 <!-- Service Priority Item List Start -->
                                 <div class="service-priority-item-list">
                                     <!-- What We Item Start -->
@@ -281,32 +264,32 @@
                                             <h3>01</h3>
                                         </div>
                                         <div class="what-we-item-content">
-                                            <h3>Personalized Treatment Plans</h3>
-                                            <p>We tailor every program to meet your unique needs, ensuring you receive care that's effective, compassionate, and aligned with your recovery goals.</p>
+                                            <h3>Planes Personalizados</h3>
+                                            <p>Adaptamos el cuidado a tus necesidades para mayor comodidad y resultados.</p>
                                         </div>
                                     </div>
                                     <!-- What We Item End -->
-                                    
+
                                     <!-- What We Item Start -->
                                     <div class="what-we-item wow fadeInUp" data-wow-delay="0.4s">
                                         <div class="icon-box">
                                             <h3>02</h3>
                                         </div>
                                         <div class="what-we-item-content">
-                                            <h3>Experienced & Caring Team</h3>
-                                            <p>We tailor every program to meet your unique needs, ensuring you receive care that's effective, compassionate, and aligned with your recovery goals.</p>
+                                            <h3>Equipo Atento y Experimentado</h3>
+                                            <p>Cuidadores amables con experiencia en recuperación postquirúrgica.</p>
                                         </div>
                                     </div>
                                     <!-- What We Item End -->
-                                    
+
                                     <!-- What We Item Start -->
                                     <div class="what-we-item wow fadeInUp" data-wow-delay="0.6s">
                                         <div class="icon-box">
                                             <h3>03</h3>
                                         </div>
                                         <div class="what-we-item-content">
-                                            <h3>Safe & Supportive Environment</h3>
-                                            <p>We tailor every program to meet your unique needs, ensuring you receive care that's effective, compassionate, and aligned with your recovery goals.</p>
+                                            <h3>Entorno Seguro y Tranquilo</h3>
+                                            <p>Habitaciones cómodas y rutinas pensadas para el descanso.</p>
                                         </div>
                                     </div>
                                     <!-- What We Item End -->
@@ -321,7 +304,7 @@
                                 <div class="service-empower-content">
                                     <h2 class="text-anime-style-3">Empower with to recovery strengt</h2>
                                     <p class="wow fadeInUp">We understand that true recovery takes time, trust & the right guidance. That's why we've built our services around continuous care, empathetic support, and proven clinical practices.</p>
-                                    
+
                                     <!-- Service Empower Item List Start -->
                                     <div class="service-empower-item-list">
                                         <!-- What We Item Start -->
@@ -335,7 +318,7 @@
                                             </div>
                                         </div>
                                         <!-- What We Item End -->
-                                        
+
                                         <!-- What We Item Start -->
                                         <div class="what-we-item wow fadeInUp" data-wow-delay="0.4s">
                                             <div class="icon-box">
@@ -350,7 +333,7 @@
                                     </div>
                                     <!-- Service Empower Item List End -->
                                 </div>
-                                <!-- Service Empower Content End --> 
+                                <!-- Service Empower Content End -->
 
                                 <!-- Service Empower Image Start -->
                                 <div class="service-empower-image">
@@ -363,80 +346,6 @@
                             <!-- Service Empower Box End -->
                         </div>
                         <!-- Service Entry End -->
-
-                        <!-- Page Single FAQs Start -->
-                        <div class="page-single-faqs">
-                            <!-- Section Title Start -->
-                            <div class="section-title">
-                                <h2 class="text-anime-style-3" data-cursor="-opaque">Frequently asked question</h2>
-                            </div>
-                            <!-- Section Title End -->
-
-                            <!-- FAQ Accordion Start -->
-                            <div class="faq-accordion" id="faqaccordion">
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp">
-                                    <h2 class="accordion-header" id="heading1">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                            Q1. What types of addiction do you treat?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>We provide comprehensive and personalized treatment plans for individuals struggling with a wide spectrum of addictions. Our programs are designed to address dependencies related to alcohol, prescription medications, opioids, heroin, cocaine, methamphetamine.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                    <h2 class="accordion-header" id="heading2">
-                                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                            Q2. How long does a typical treatment program last?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>We provide comprehensive and personalized treatment plans for individuals struggling with a wide spectrum of addictions. Our programs are designed to address dependencies related to alcohol, prescription medications, opioids, heroin, cocaine, methamphetamine.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                    <h2 class="accordion-header" id="heading3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                            Q3. How do I know if I need rehab?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>We provide comprehensive and personalized treatment plans for individuals struggling with a wide spectrum of addictions. Our programs are designed to address dependencies related to alcohol, prescription medications, opioids, heroin, cocaine, methamphetamine.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->    
-
-                                <!-- FAQ Item Start -->
-                                <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                    <h2 class="accordion-header" id="heading4">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                            Q4. What kinds of programs do you offer?
-                                        </button>
-                                    </h2>
-                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqaccordion">
-                                        <div class="accordion-body">
-                                            <p>We provide comprehensive and personalized treatment plans for individuals struggling with a wide spectrum of addictions. Our programs are designed to address dependencies related to alcohol, prescription medications, opioids, heroin, cocaine, methamphetamine.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- FAQ Item End -->
-                            </div>
-                            <!-- FAQ Accordion End -->
-                        </div>
-                        <!-- Page Single FAQs End -->
                     </div>
                     <!-- Service Single Content End -->
                 </div>
@@ -460,7 +369,7 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We provide trusted, personalized care for lasting addiction recovery.</p>
+                            <p>Ofrecemos un espacio amable y acogedor para tu recuperación postquirúrgica, donde la comodidad, la privacidad y el cuidado personal son nuestras prioridades.</p>
                         </div>
                         <!-- About Footer Content End -->
 
@@ -477,7 +386,7 @@
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->
-                            
+
                             <!-- Footer Contact Item Start -->
                             <div class="footer-contact-item">
                                 <div class="icon-box">
@@ -490,7 +399,7 @@
                             </div>
                             <!-- Footer Contact Item End -->
                         </div>
-                        <!-- Footer Contact Details End --> 
+                        <!-- Footer Contact Details End -->
                     </div>
                     <!-- About Footer End -->
                 </div>
@@ -500,7 +409,7 @@
                     <div class="footer-newsletter-box">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Free insights on healing delivery weekly</h2>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Consejos útiles de recuperación cada semana</h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -508,7 +417,7 @@
                         <div class="footer-newsletter-form">
                             <form id="newslettersForm" action="#" method="POST">
                                 <div class="form-group">
-                                    <input type="email" name="mail" class="form-control"  id="mail" placeholder="Enter your email" required>
+                                    <input type="email" name="mail" class="form-control"  id="mail" placeholder="Ingresa tu correo electrónico" required>
                                     <button type="submit" class="newsletter-btn"><i class="fa-regular fa-paper-plane"></i></button>
                                 </div>
                             </form>
@@ -526,15 +435,15 @@
                             <p>Copyright © 2025 All Rights Reserved.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
-                        
+
                         <!-- Footer Links Start -->
                         <div class="footer-links">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="blog.html">blogs</a></li>
-                                <li><a href="contact.html">contact</a></li>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="about.html">Sobre nosotros</a></li>
+                                <li><a href="services.html">Servicios</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contacto</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -577,5 +486,131 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+    <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const key = (params.get('service') || '').toLowerCase();
+
+      const SERVICES = {
+        asistencia: {
+          title: 'Asistencia Personal 24/7',
+          intro: '<p>Apoyo atento y continuo para tus necesidades diarias después de la cirugía: ayuda con higiene, vestimenta, movilidad y recordatorios de medicación.</p>',
+          bullets: [
+            'Ayuda amable con movilidad y descanso',
+            'Recordatorios de medicación e hidratación',
+            'Apoyo discreto en higiene y confort',
+            'Supervisión y check-ins regulares'
+          ]
+        },
+        transporte: {
+          title: 'Transporte y Citas',
+          intro: '<p>Coordinamos traslados seguros desde la clínica, farmacia y a tus citas de seguimiento para que solo te ocupes de descansar.</p>',
+          bullets: [
+            'Recogida tras el alta',
+            'Traslados a consultas y recados',
+            'Coordinación con tu agenda',
+            'Acompañamiento cuando sea necesario'
+          ]
+        },
+        comidas: {
+          title: 'Comidas y Hidratación',
+          intro: '<p>Preparamos comidas ligeras y nutritivas, con recordatorios de hidratación para apoyar tu recuperación y energía.</p>',
+          bullets: [
+            'Opciones simples y nutritivas',
+            'Snacks suaves y bebidas',
+            'Horarios cómodos y flexibles',
+            'Preferencias y restricciones consideradas'
+          ]
+        },
+        habitaciones: {
+          title: 'Habitaciones Privadas y Cómodas',
+          intro: '<p>Descansa en un espacio tranquilo y acogedor con ropa de cama fresca y un ambiente pensado para tu confort.</p>',
+          bullets: [
+            'Ambiente silencioso y ordenado',
+            'Ropa de cama limpia y cómoda',
+            'Iluminación suave y privacidad',
+            'Espacios preparados para el descanso'
+          ]
+        },
+        nocturno: {
+          title: 'Acompañamiento Nocturno',
+          intro: '<p>Para mayor tranquilidad, ofrecemos cuidadores disponibles durante la noche según tus necesidades.</p>',
+          bullets: [
+            'Presencia atenta durante la noche',
+            'Apoyo en levantarse y acostarse',
+            'Seguimiento de comodidad y dolor',
+            'Respuesta rápida a necesidades'
+          ]
+        },
+        medicacion: {
+          title: 'Recordatorios de Medicación',
+          intro: '<p>Te ayudamos a seguir tu pauta de medicación con recordatorios y apoyo organizado, sin estrés.</p>',
+          bullets: [
+            'Rutinas claras y sin complicaciones',
+            'Seguimiento amable y respetuoso',
+            'Coordinación con indicaciones médicas',
+            'Registro básico de tomas (si se requiere)'
+          ]
+        },
+        movilidad: {
+          title: 'Ayuda con la Movilidad',
+          intro: '<p>Asistencia discreta para moverte con seguridad y comodidad, reduciendo el esfuerzo y el riesgo.</p>',
+          bullets: [
+            'Apoyo al caminar y sentarse',
+            'Ayuda en el baño y vestimenta',
+            'Pequeños ejercicios de movimiento (según indicación)',
+            'Prevención de esfuerzos innecesarios'
+          ]
+        },
+        familia: {
+          title: 'Comunicación con la Familia',
+          intro: '<p>Mantenemos informados a tus seres queridos con actualizaciones y coordinación cuando lo autorices.</p>',
+          bullets: [
+            'Actualizaciones regulares',
+            'Coordinación de visitas',
+            'Apoyo en logística familiar',
+            'Comunicación respetuosa y privada'
+          ]
+        }
+      };
+
+      // Elements
+      const titleEl = document.getElementById('svc-title');
+      const crumbEl = document.getElementById('svc-crumb');
+      const sidebarEl = document.getElementById('svc-sidebar');
+      const introEl = document.getElementById('svc-intro');
+      const bulletsEl = document.getElementById('svc-bullets');
+      const stepTitleEl = document.getElementById('svc-step-title');
+      const stepTextEl = document.getElementById('svc-step-text');
+
+      function buildSidebar(activeKey) {
+        const entries = [
+          ['asistencia', 'Asistencia Personal 24/7'],
+          ['transporte', 'Transporte y Citas'],
+          ['comidas', 'Comidas y Hidratación'],
+          ['habitaciones', 'Habitaciones Privadas y Cómodas'],
+          ['nocturno', 'Acompañamiento Nocturno'],
+          ['medicacion', 'Recordatorios de Medicación'],
+          ['movilidad', 'Ayuda con la Movilidad'],
+          ['familia', 'Comunicación con la Familia']
+        ];
+        sidebarEl.innerHTML = entries.map(([k, label]) => {
+          const cls = (k === activeKey) ? ' class="active"' : '';
+          return `<li${cls}><a href="service-single.html?service=${k}">${label}</a></li>`;
+        }).join('');
+      }
+
+      const fallback = { title: 'Detalle de servicio', intro: '<p>Selecciona un servicio para ver más detalles.</p>', bullets: [] };
+      const svc = SERVICES[key] || fallback;
+
+      titleEl.textContent = svc.title;
+      crumbEl.textContent = svc.title;
+      introEl.innerHTML = svc.intro;
+      stepTitleEl.textContent = 'Apoyo en cada paso';
+      stepTextEl.textContent = 'Cuidado personalizado con rutinas confiables y acompañamiento atento.';
+      bulletsEl.innerHTML = (svc.bullets || []).map(li => `<li>${li}</li>`).join('');
+      buildSidebar(key);
+    })();
+    </script>
 </body>
 </html>
