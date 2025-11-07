@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+	<meta name="author" content="Beauty Recovery">
 	<!-- Page Title -->
-    <title>Detalle de Servicio — Casa de Recuperación Postquirúrgica</title>
+    <title>Detalle de Servicio — Beauty Recovery</title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 	<!-- Google Fonts Css-->
@@ -51,7 +51,7 @@
 				<div class="container-fluid">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="./">
-						<img src="images/logo.svg" alt="Logo">
+                        <img src="images/logo.png" alt="Beauty Recovery Logo" style="height:70px; width:auto; max-width:100%; object-fit:contain; display:block;">
 					</a>
 					<!-- Logo End -->
 
@@ -99,7 +99,7 @@
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="./">inicio</a></li>
-                                <li class="breadcrumb-item"><a href="services.html">servicios</a></li>
+                                <li class="breadcrumb-item"><a href="service.html">servicios</a></li>
                                 <li class="breadcrumb-item active" aria-current="page" id="svc-crumb">Detalle</li>
                             </ol>
                         </nav>
@@ -363,7 +363,7 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="images/footer-logo.svg" alt="">
+                            <img src="images/footer-logo.svg" alt="Beauty Recovery Logo">
                         </div>
                         <!-- Footer Logo End -->
 
@@ -441,7 +441,7 @@
                             <ul>
                                 <li><a href="index.html">Inicio</a></li>
                                 <li><a href="about.html">Sobre nosotros</a></li>
-                                <li><a href="services.html">Servicios</a></li>
+                                <li><a href="service.html">Servicios</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contacto</a></li>
                             </ul>
@@ -596,7 +596,7 @@
         ];
         sidebarEl.innerHTML = entries.map(([k, label]) => {
           const cls = (k === activeKey) ? ' class="active"' : '';
-          return `<li${cls}><a href="service-single.html?service=${k}">${label}</a></li>`;
+          return `<li${cls}><a href="service.html?service=${k}">${label}</a></li>`;
         }).join('');
       }
 
