@@ -46,17 +46,17 @@
 /************************************/
 
 :root{
-	--primary-color				: #26505E;
-	--secondary-color			: #E9F2DF;
-	--accent-secondary-color	: #CE9E6E33;
-	--bg-color					: #FFFDFA;
-	--text-color				: #7D898D;
-	--accent-color				: #CE9E6E;
-	--white-color				: #FFFFFF;
-	--divider-color				: #26505E1A;
-	--dark-divider-color		: #FFFFFF1A;
-	--error-color				: rgb(230, 87, 87);
-	--default-font				: "Sora", sans-serif;
+	--primary-color             : #1f1f1f;     /* near-black text */
+	--secondary-color           : #f6ecf2;     /* soft blush pink */
+	--accent-secondary-color    : #c79a4b33;   /* translucent gold tint */
+	--bg-color                  : #ffffff;     /* clean white background */
+	--text-color                : #6f6270;     /* muted warm gray */
+	--accent-color              : #c79a4b;     /* warm gold (logo color) */
+	--white-color               : #FFFFFF;
+	--divider-color             : #c79a4b33;   /* soft gold divider */
+	--dark-divider-color        : #00000022;   /* subtle shadow divider */
+	--error-color               : rgb(230, 87, 87);
+	--default-font              : "Sora", sans-serif;
 }
 
 /************************************/
@@ -2009,6 +2009,7 @@ header.main-header .header-sticky.active{
 
 .cta-box{
 	padding: 100px 0;
+	margin-bottom:  60px;
 }
 
 .cta-box-list ul{
@@ -2381,6 +2382,7 @@ header.main-header .header-sticky.active{
 .main-footer{
 	padding: 100px 0 0;
 	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .footer-logo{
@@ -5842,6 +5844,17 @@ header.main-header .header-sticky.active{
 	}
 }
 
+ /* Allow long email addresses to wrap in contact info */
+ .contact-info-item .contact-item-content p a,
+ .footer-contact-item .footer-contact-item-content p a{
+	 display: inline-block;
+	 max-width: 100%;
+	 white-space: normal;
+	 word-break: break-all;
+	 overflow-wrap: anywhere;
+ }
+
+
 @media only screen and (max-width: 767px){
 
 	.section-row{
@@ -6567,4 +6580,5 @@ header.main-header .header-sticky.active{
 	.appointment-image img{
         aspect-ratio: 1 / 1.012;
     }
+
 }
